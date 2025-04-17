@@ -1,0 +1,13 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #007BFF; padding: 15px 30px; color: white; }
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin: 0 15px; }
+.nav-links a { color: white; text-decoration: none; font-size: 16px; }
+.hero { text-align: center; background: #007BFF; color: white; padding: 100px 20px; }
+.hero h1 { font-size: 36px; }
+.hero p { font-size: 18px; margin: 10px 0; }
+.cta-btn { display: inline-block; background: #FFD700; color: black; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+.form-container { width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; text-align: center; }
+.form-container input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+.form-container button { width: 100%; padding: 10px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
